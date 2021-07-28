@@ -1,0 +1,20 @@
+.NoticiaCard{
+width: 500px;
+height: 600px;
+margin-bottom: 2rem;
+margin-left: 1rem;
+
+}
+.ImagenCard{
+height: 300px;
+width: 100%;
+}
+.BotonCard{
+width: 50%;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+.Titulo{
+color: white;
+}
+
