@@ -13,7 +13,7 @@ export default class Home extends Component {
 
     state = {
         categorias: ["business", "entertainment", "general", "health", "science", "sports", "technology"],
-        selectedcategoria: "Escoja categoria",
+        selectedcategoria: "Escoja categoría",
         noticias: [],
         selectednoticia: [],
         mostrarspinner: false
@@ -98,7 +98,7 @@ export default class Home extends Component {
         return (
             <div>
                 <h1 className="Titulo">
-                    Noticias por categoria
+                    Noticias por categoría
                 </h1>
                 <br></br>
                 <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
